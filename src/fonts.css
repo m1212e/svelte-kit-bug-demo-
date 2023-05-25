@@ -1,0 +1,23 @@
+@import './fonts';
+
+@font-face {
+	font-family: 'Inter';
+	src: url('fonts/Inter-VariableFont_slnt_wght') format('ttf') tech('variations');
+	font-weight: 100 900;
+}
+
+:root {
+	font-family: Inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+	@apply text-4xl font-bold;
+}
+
+h2 {
+	@apply text-3xl font-bold;
+}
+
+h3 {
+	@apply text-2xl font-bold;
+}
